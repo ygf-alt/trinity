@@ -120,15 +120,15 @@ def handle_testnets(message):
         ("Reddio", "https://t.me/reddiotrinity"),
         ("Monad", "https://t.me/monadtrinity"),
         ("Starknet", "https://t.me/starknettrinity"),
-        ("Inertia", url="https://t.me/Fakemoney95/96")
-        ("MegaETH", url="https://t.me/megaETHguide")
-        ("KiteAI", url="https://t.me/kiteaitriniti")
-        ("Fiamma", url="https://t.me/Fiammatrinity")
-        ("Backpack", url="https://t.me/trinitybackpack")
-        ("MonadScore", url="https://t.me/trinitymonad")
-        ("Zenchain", url="https://t.me/trinityzenchain")
-        ("0GLabs", url="https://t.me/trinityOGlabs")
-        ("Coresky", url="https://t.me/trinitycoresky")
+        ("Inertia", "https://t.me/Fakemoney95/96")
+        ("MegaETH", "https://t.me/megaETHguide")
+        ("KiteAI", "https://t.me/kiteaitriniti")
+        ("Fiamma", "https://t.me/Fiammatrinity")
+        ("Backpack", "https://t.me/trinitybackpack")
+        ("MonadScore", "https://t.me/trinitymonad")
+        ("Zenchain", "https://t.me/trinityzenchain")
+        ("0GLabs", "https://t.me/trinityOGlabs")
+        ("Coresky", "https://t.me/trinitycoresky")
     ]
     for name, url in links:
         keyboard.add(types.InlineKeyboardButton(name, url=url))
